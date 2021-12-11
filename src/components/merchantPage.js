@@ -19,7 +19,7 @@ class MerchantPage extends React.Component {
           <div>Category: {currentMerchant?.category}</div> 
           <div>Description: {currentMerchant?.description}</div> 
         </div>
-  
+        
         <ItemList></ItemList>
       </div>
   
@@ -27,10 +27,16 @@ class MerchantPage extends React.Component {
   }
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
     merchants: state.merchants
   }
 }
 
-export default connect(mapStateToProps, {fetchItems})(MerchantPage);
+const mapDispatchToProps = (dispatch) => {
+  return {
+    fetchItems: (id) => dispatch(fetchItems(id)),
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(MerchantPage);
