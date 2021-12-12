@@ -15,10 +15,10 @@ class ItemPage extends React.Component {
       <div>
         <div className="py-5 text-center container lead text-muted">
           <div><img width="450" src={currentItem?.image_url}/></div>
-          <div>{currentItem?.name}</div>
-          <div>{currentItem?.description}</div>
-          <div>{currentItem?.category}</div> 
-          <div>${currentItem?.price}</div>
+          <div>Name: {currentItem?.name}</div>
+          <div>Description: {currentItem?.description}</div>
+          <div>Category: {currentItem?.category}</div> 
+          <div>Price: ${currentItem?.price}</div>
         </div>
       </div>
     )
