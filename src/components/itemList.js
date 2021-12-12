@@ -1,7 +1,7 @@
 import {React} from 'react';
 import {connect} from 'react-redux'
 import ItemCard from './itemCard'
-import { ReactReduxContext } from 'react-redux'
+//import { ReactReduxContext } from 'react-redux'
 
 const ItemList = (props) => {
   return (

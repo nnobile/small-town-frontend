@@ -1,6 +1,6 @@
-import React, {Component} from 'react'
-import {useHistory} from 'react-router-dom';
-import { ReactReduxContext } from 'react-redux';
+import React from 'react'
+//import {useHistory} from 'react-router-dom';
+//import { ReactReduxContext } from 'react-redux';
 import addItem from '../actions/addItem';
 import {connect} from 'react-redux'
 

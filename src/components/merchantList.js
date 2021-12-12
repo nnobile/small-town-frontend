@@ -1,6 +1,6 @@
-import {React, useContext} from 'react';
+import React from 'react';
 import MerchantCard from './merchantCard'
-import { ReactReduxContext } from 'react-redux'
+//import { ReactReduxContext } from 'react-redux'
 import {connect} from 'react-redux'
 
 

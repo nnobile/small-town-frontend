@@ -1,15 +1,10 @@
-import React, {Component} from 'react'
+import React from 'react'
 import {connect} from 'react-redux'
-import {useHistory} from 'react-router-dom';
-import { ReactReduxContext } from 'react-redux';
-import deleteItem from '../actions/deleteItem';
+//import {useHistory} from 'react-router-dom';
+//import { ReactReduxContext } from 'react-redux';
+//import deleteItem from '../actions/deleteItem';
 
 class ItemPage extends React.Component {
-  deleteItem(item) {
-    const itemId = item?.id;
-    const merchantId = item?.merchant_id;
-    this.props.deleteItem(merchantId, itemId);
-  }
 
   render() {
     console.log(this.props)
@@ -37,4 +32,4 @@ const mapStateToProps = state => {
   }
 }
 
-export default connect(mapStateToProps, {deleteItem})(ItemPage);
+export default connect(mapStateToProps)(ItemPage);
