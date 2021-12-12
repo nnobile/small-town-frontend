@@ -10,8 +10,3 @@ const fetchItems = (id) => {
 }
 
 export default fetchItems;
-
-
-function doSomething(x) {
-  return x + 5;
-}

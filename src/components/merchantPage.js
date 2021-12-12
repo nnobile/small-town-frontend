@@ -4,7 +4,6 @@ import ItemList from './itemList';
 import fetchItems from '../actions/fetchItems';
 import { ReactReduxContext } from 'react-redux'
 
-
 class MerchantPage extends React.Component {
   render() {
     const id = this.props.match.params.id;
