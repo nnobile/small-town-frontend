@@ -1,4 +1,4 @@
-const fetchMerchants = (data) => {
+const fetchMerchants = () => {
   return (dispatch) => {
     fetch('http://localhost:3000/api/v1/merchants')
     .then(response => response.json())

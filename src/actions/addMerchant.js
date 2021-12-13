@@ -1,5 +1,4 @@
 const addMerchant = (merchant, history) => {
-  console.log(merchant)
   return (dispatch) => {
     fetch('http://localhost:3000/api/v1/merchants', {
       method: 'POST',

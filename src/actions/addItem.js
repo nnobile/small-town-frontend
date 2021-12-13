@@ -1,5 +1,4 @@
 const addItem = (item, history) => {
-    console.log(item)
     return (dispatch) => {
       fetch('http://localhost:3000/api/v1/merchants/' + item.merchant_id + '/items', {
         method: 'POST',
@@ -9,7 +8,7 @@ const addItem = (item, history) => {
           'Accept': 'application/json'
         },
       })
-      .then(res => {
+      .then((res) => {
         dispatch({
           type: 'ADD_ITEM',
           payload: item

@@ -14,9 +14,6 @@ class AddItemPage extends React.Component {
     merchant_id: '',
     image_url: ''
   }
-  componentDidMount() {
-    console.log("props", this.props)
-  }
 
   handleNameChange = (event) => {
     this.setState({name: event.target.value});

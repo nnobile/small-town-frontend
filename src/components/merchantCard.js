@@ -5,7 +5,7 @@ const MerchantCard = (props) => {
   const history = useHistory();
 
   return (
-    <div class="col">
+    <div className="col">
       <div className="card shadow-sm" onClick={() => {history.push('/merchant/' + props.merchant.id)}}>
         <img className="bd-placeholder-img card-img-top" src={props.merchant.image_url}/>
         <div className="card-body">

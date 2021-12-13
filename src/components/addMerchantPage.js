@@ -12,9 +12,6 @@ class AddMerchantPage extends React.Component {
     category: '',
     image_url: ''
   }
-  componentDidMount() {
-    console.log("props", this.props)
-  }
 
   handleNameChange = (event) => {
     this.setState({name: event.target.value});

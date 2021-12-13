@@ -7,7 +7,6 @@ import {connect} from 'react-redux'
 class ItemPage extends React.Component {
 
   render() {
-    console.log(this.props)
     const id = this.props.match.params.id;
     const currentItem = this.props.items.find((item) => item.id === Number(id));
 

@@ -19,7 +19,7 @@ class MerchantPage extends React.Component {
           <div>Description: {currentMerchant?.description}</div> 
         </div>
         
-        <ItemList></ItemList>
+        <ItemList merchantId={currentMerchant?.id} />
       </div>
   
     )
