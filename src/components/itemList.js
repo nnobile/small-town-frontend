@@ -1,7 +1,6 @@
 import {React} from 'react';
 import {connect} from 'react-redux'
 import ItemCard from './itemCard'
-//import { ReactReduxContext } from 'react-redux'
 
 const ItemList = (props) => {
   if (props.items.length <= 0) return null

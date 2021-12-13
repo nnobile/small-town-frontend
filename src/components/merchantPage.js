@@ -2,7 +2,6 @@ import React from 'react'
 import {connect} from 'react-redux'
 import ItemList from './itemList';
 import fetchItems from '../actions/fetchItems';
-//import { ReactReduxContext } from 'react-redux'
 
 class MerchantPage extends React.Component {
   render() {
@@ -31,11 +30,5 @@ const mapStateToProps = (state) => {
     merchants: state.merchants
   }
 }
-
-//const mapDispatchToProps = (dispatch) => {
-  //return {
-    //fetchItems: (id) => dispatch(fetchItems(id)),
-  //}
-//}
 
 export default connect(mapStateToProps, {fetchItems})(MerchantPage);

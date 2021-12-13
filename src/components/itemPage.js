@@ -1,8 +1,5 @@
 import React from 'react'
 import {connect} from 'react-redux'
-//import {useHistory} from 'react-router-dom';
-//import { ReactReduxContext } from 'react-redux';
-//import deleteItem from '../actions/deleteItem';
 
 class ItemPage extends React.Component {
 

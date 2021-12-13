@@ -1,8 +1,7 @@
 import React from 'react';
 import MerchantCard from './merchantCard'
-//import { ReactReduxContext } from 'react-redux'
 import {connect} from 'react-redux'
-import itemList from './itemList';
+//import itemList from './itemList';
 
 
 const MerchantList = (props) => {

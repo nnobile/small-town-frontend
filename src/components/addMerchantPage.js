@@ -1,5 +1,4 @@
 import React from 'react'
-//import { ReactReduxContext } from 'react-redux';
 import addMerchant from '../actions/addMerchant';
 import {connect} from 'react-redux'
 
