@@ -18,3 +18,4 @@ const MerchantCard = (props) => {
 }
 
 export default MerchantCard
+

@@ -43,7 +43,6 @@ class AddItemPage extends React.Component {
       this.setState({ error_message: "Please enter all information and resubmit." })
       return
     }
-
     this.props.addItem(this.state, this.props.history);
   }
 
