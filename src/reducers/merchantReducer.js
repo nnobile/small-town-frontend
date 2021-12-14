@@ -1,4 +1,4 @@
-export default function accountReducer (state = {merchants: [], items: []}, action){
+export default function merchantReducer (state = {merchants: [], items: []}, action){
   switch(action.type) {
     case 'FETCH_MERCHANTS':
       return {...state, merchants: action.payload}
