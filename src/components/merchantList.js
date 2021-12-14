@@ -1,7 +1,6 @@
 import React from 'react';
 import MerchantCard from './merchantCard'
 import {connect} from 'react-redux'
-//import itemList from './itemList';
 
 const MerchantList = (props) => {
 
