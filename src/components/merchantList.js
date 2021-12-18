@@ -20,3 +20,9 @@ const mapStateToProps = state => {
 }
 
 export default connect(mapStateToProps)(MerchantList);
+
+
+// Step 1 is creating an input that takes in text
+// Step 2 is creating a like button on each merchant card
+// Step 3 identify the number characters in the input field string
+// Step 4 the like button will increment based on the number of characters in input field

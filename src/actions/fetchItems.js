@@ -2,10 +2,11 @@ const fetchItems = (id) => {
   return (dispatch) => {
     fetch('http://localhost:3000/api/v1/merchants/' + id + '/items')
     .then(response => response.json())
-    .then(items => dispatch({
+    .then(items => {
+      dispatch({
       type: 'FETCH_ITEMS',
       payload: items
-    }))
+    })})
   }
 }
 

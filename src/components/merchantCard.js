@@ -1,3 +1,5 @@
+
+   
 import React from 'react';
 import {useHistory} from 'react-router-dom';
 
@@ -18,4 +20,3 @@ const MerchantCard = (props) => {
 }
 
 export default MerchantCard
-

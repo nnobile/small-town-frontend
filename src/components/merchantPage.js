@@ -32,3 +32,5 @@ const mapStateToProps = (state) => {
 }
 
 export default connect(mapStateToProps, {fetchItems})(MerchantPage);
+
+
